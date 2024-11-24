@@ -6,33 +6,35 @@ Features
 2)User-Friendly Interface: A Streamlit-based web application that allows users to input a wallet address and receive classification results instantly.
 3)Error Handling: Robust error handling mechanisms to ensure the app operates smoothly even when unexpected issues arise.
 Project Components
+
 Synthetic Dataset Generation:
-
 Generated a synthetic dataset with data augmentation techniques for cryptocurrency address classification.
+
 Feature Extraction:
-
 Extracted relevant features from the wallet addresses, including length, prefix, and character distribution.
-Model Training and Comparison:
 
+Model Training and Comparison:
 Trained different machine learning models on the dataset and compared their performance.
 Selected the best-performing model for further refinement.
-Deep Neural Network (DNN) Training:
 
+Deep Neural Network (DNN) Training:
 Trained a Deep Neural Network (DNN) for the final classification task.
 Saved the trained model (final.h5) for deployment.
-Streamlit Application:
 
+Streamlit Application:
 Built a web application using Streamlit to provide an interactive user interface for address classification.
 Sidebar input for entering the wallet address and a button to trigger the classification process.
 Display of classification probabilities for each cryptocurrency type.
-Error Handling:
 
+Error Handling:
 Handled errors related to loading the model and label encoder.
 Validated input addresses to ensure they are correctly formatted and contain valid prefixes.
 Provided user-friendly error messages to guide users in case of input errors or other issues.
+
 Error Handling and Messages
 If the model or label encoder fails to load, the app will display an appropriate error message and stop execution.
 If the input address is invalid or has an unrecognized prefix, the app will inform the user to check the address.
 Any other errors during prediction will be caught and displayed to the user, ensuring a smooth user experience.
+
 Conclusion
 This project demonstrates the application of deep learning for the classification of cryptocurrency wallet addresses. By leveraging a pre-trained model and a user-friendly Streamlit interface, users can easily predict the type of cryptocurrency associated with a given wallet address. The project also emphasizes robust error handling to enhance reliability and user experience. The use of a synthetic dataset with data augmentation, feature extraction, and comparison of different ML models highlights the comprehensive approach taken to develop an effective classification solution.
