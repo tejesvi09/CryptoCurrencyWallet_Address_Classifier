@@ -2,9 +2,9 @@
 This project involves the development of a machine learning model to classify cryptocurrency wallet addresses. The classifier is designed to predict the type of cryptocurrency (Bitcoin, Bitcoin Cash, Ethereum, or Litecoin) based on the input wallet address. The project utilizes a pre-trained deep learning model and a label encoder to achieve this task.
 
 Features
-Address Classification: Predicts whether a given cryptocurrency wallet address belongs to Bitcoin, Bitcoin Cash, Ethereum, or Litecoin.
-User-Friendly Interface: A Streamlit-based web application that allows users to input a wallet address and receive classification results instantly.
-Error Handling: Robust error handling mechanisms to ensure the app operates smoothly even when unexpected issues arise.
+1)Address Classification: Predicts whether a given cryptocurrency wallet address belongs to Bitcoin, Bitcoin Cash, Ethereum, or Litecoin.
+2)User-Friendly Interface: A Streamlit-based web application that allows users to input a wallet address and receive classification results instantly.
+3)Error Handling: Robust error handling mechanisms to ensure the app operates smoothly even when unexpected issues arise.
 Project Components
 Synthetic Dataset Generation:
 
